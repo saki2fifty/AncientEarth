@@ -1,0 +1,70 @@
+{
+  "schema": "ancientearth.water-source-license-review.v1",
+  "reviewed_date": "2026-10-20",
+  "license": "Copernicus-WorldDEM-30",
+  "original_license": "licenses/Copernicus-WorldDEM-30-eula_F.pdf",
+  "review": "Read the exact INFO/eula_F.pdf accompanying each of the four AWS product directories. All four licenses are byte-identical. Each product XML identifies the WBM component. Article 3 grants worldwide rights without time limit; Article 4 permits reproduction, distribution, communication and modification/combination without a noncommercial restriction; Article 5 is fee-free. Article 6 requires attribution, modified-data notice, liability notice, no implied endorsement and onward obligations. Articles 7 and 9 retain warranty/liability and intellectual-property conditions. Full original terms accompany distribution. These findings apply only to the recorded product files, not arbitrary provider assets.",
+  "required_notices": "NOTICE.md, Copernicus terrain and water section",
+  "files": [
+    {
+      "filename": "N29_00_W095_00-WBM.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W095_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N29_00_W095_00_WBM.tif",
+      "sha256": "2bd6dfe9c38a469eef6fdcf4c8a3d6a0eacaf7457d4ee3657519c3ac99c3d3e9"
+    },
+    {
+      "filename": "N29_00_W095_00-eula_F.pdf",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W095_00_DEM/INFO/eula_F.pdf",
+      "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    {
+      "filename": "N29_00_W095_00.xml",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W095_00_DEM/Copernicus_DSM_10_N29_00_W095_00.xml",
+      "sha256": "4e7115bdd13a7aec1874da0768b6610059079cfdb7fb662313a301d81350dde5"
+    },
+    {
+      "filename": "N29_00_W096_00-WBM.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W096_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N29_00_W096_00_WBM.tif",
+      "sha256": "a2afb6371b5b5b5d2ff3ceb09ef46fc67af400dbe2bc9895682ae0e32faad4b4"
+    },
+    {
+      "filename": "N29_00_W096_00-eula_F.pdf",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W096_00_DEM/INFO/eula_F.pdf",
+      "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    {
+      "filename": "N29_00_W096_00.xml",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W096_00_DEM/Copernicus_DSM_10_N29_00_W096_00.xml",
+      "sha256": "c1803f89f31c8d614e9db9d1c23c8be890841937155a9fc82759fb6d35823b31"
+    },
+    {
+      "filename": "N35_00_E138_00-WBM.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E138_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N35_00_E138_00_WBM.tif",
+      "sha256": "d5d4e2a0728799e05299fb62031927fdb99ad4411e5539b207e640c0de60864c"
+    },
+    {
+      "filename": "N35_00_E138_00-eula_F.pdf",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E138_00_DEM/INFO/eula_F.pdf",
+      "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    {
+      "filename": "N35_00_E138_00.xml",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E138_00_DEM/Copernicus_DSM_10_N35_00_E138_00.xml",
+      "sha256": "9b83cca3eb9bfdb4071e185e1aa26c6cc7e77cebf33abe7858d1c9db242c117b"
+    },
+    {
+      "filename": "N35_00_E139_00-WBM.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E139_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N35_00_E139_00_WBM.tif",
+      "sha256": "d1f6ede4229a5503d416b3addec16ab38761cb74732b61b5f5c1661ff037933c"
+    },
+    {
+      "filename": "N35_00_E139_00-eula_F.pdf",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E139_00_DEM/INFO/eula_F.pdf",
+      "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    {
+      "filename": "N35_00_E139_00.xml",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E139_00_DEM/Copernicus_DSM_10_N35_00_E139_00.xml",
+      "sha256": "b3d22c56c109f720a743287b5e3fc2c7e25510acf89cd3e30ae51e77b89ef847"
+    }
+  ]
+}

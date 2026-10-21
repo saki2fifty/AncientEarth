@@ -1,0 +1,11 @@
+{
+  "source": "NOAA/NCEP GFS",
+  "source_url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?file=gfs.t12z.pgrb2.0p25.f007&all_lev=on&var_TMP=on&var_SPFH=on&var_HGT=on&var_PRES=on&subregion=&leftlon=265.00&rightlon=265.50&toplat=29.50&bottomlat=29.00&dir=%2Fgfs.20261021%2F12%2Fatmos",
+  "terms_url": "https://www.weather.gov/disclaimer",
+  "fetched_utc": "2026-10-21T19:36:48.859830+00:00",
+  "sha256": "0b5b4658c61b74deae99b2e45cd4391ca120b2bfaee7d7d8b409f146559f3446",
+  "modifications": "No local binary modification. Geographic/variable subset produced by NOAA NOMADS. Optical derivatives belong to Ancient Earth and are not official NOAA products.",
+  "schema": "ancientearth.weather-reference.v1",
+  "output_sha256": "0b5b4658c61b74deae99b2e45cd4391ca120b2bfaee7d7d8b409f146559f3446",
+  "purpose": "Fixed scientific verification sample, not current runtime weather. Independent GDAL/Rasterio grid and source review completed 2026-10-21."
+}

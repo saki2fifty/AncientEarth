@@ -1,0 +1,8 @@
+{
+  "source_url": "https://raw.githubusercontent.com/astropy/astropy-iers-data/798223ef83d161f89f7feb0b75f7a212de6c0353/astropy_iers_data/data/finals2000A.all",
+  "retrieved": "2026-10-20",
+  "modifications": "None; original bytes and embedded source metadata retained.",
+  "source_sha256": "bfa2066aab0400b075357f573af6081e0068a518993609eee0c5ca991bab0845",
+  "output_sha256": "bfa2066aab0400b075357f573af6081e0068a518993609eee0c5ca991bab0845",
+  "license_source": "https://github.com/astropy/astropy-iers-data/blob/798223ef83d161f89f7feb0b75f7a212de6c0353/LICENSE.rst"
+}

@@ -1,0 +1,515 @@
+{
+  "dataset": "GSI seamless aerial photography, zoom 14",
+  "source_page": "https://maps.gsi.go.jp/development/ichiran.html#seamlessphoto",
+  "terms": "https://www.gsi.go.jp/ENGLISH/page_e30286.html",
+  "credit": "Created by editing GSI Tiles (Geospatial Information Authority of Japan)",
+  "retrieved_date": "2026-10-20",
+  "capture_date": "Mixed acquisition dates; the retrieval date is not the photography date",
+  "projection": "WebMercator",
+  "mosaic_bounds_degrees": {
+    "west": 138.603515625,
+    "south": 35.26356186215208,
+    "east": 138.84521484375,
+    "north": 35.4606699514953
+  },
+  "tile_range_inclusive": [
+    14500,
+    6464,
+    14510,
+    6474
+  ],
+  "zoom": 14,
+  "output_dimensions_pixels": [
+    2816,
+    2816
+  ],
+  "output_sha256": "f6e6b7a08090866634588730f42bdb86c1ed20a0a75f02eddf1b64bf735198d8",
+  "processing": "Native north-up XYZ tiles stitched without reprojection or resizing; JPEG quality 95",
+  "limitations": "Aerial color only; not 3D buildings, current conditions, or a ground survey",
+  "tiles": [
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6464.jpg",
+      "sha256": "b0c522d7b2549aab55d400e2872b42b265a18319c999b5bd0b51e5f5bfe921f7"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6464.jpg",
+      "sha256": "22b86705d388887a6d3a6cec6142c03239822d8e761d956cc412862df0cd2767"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6464.jpg",
+      "sha256": "e211130746f9387a798d8c259b4294f6254e9e6210560d30dab49a82ff4ccded"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6464.jpg",
+      "sha256": "5cf4bfd904f94f98afbf0abb88be070bb869d2820296fa6c96d273b2f025ecbd"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6464.jpg",
+      "sha256": "ee83c664cc0b15717516a90e78c7ad2dbeaf60aeb20227bfc99cc151a9710ba0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6464.jpg",
+      "sha256": "cfdb370eb25d2d19a1df95cc0d931c2b41029b8633ef531043f3d496bff7e6af"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6464.jpg",
+      "sha256": "cbfcec22df71dab40bd1dace95ddc5b3696fc3c39036c853b106c2b70e4f83e6"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6464.jpg",
+      "sha256": "31e9d9898aade4d159861eed8b1ec3771ba28dec2d91e6c2c9a2202771deb34b"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6464.jpg",
+      "sha256": "5d6473f565025fb581e23b9f3dd281507e14996ea1da8f72f39a1b2e4006183c"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6464.jpg",
+      "sha256": "f2872de2e01477c79b1eccf483b028a4376f6c43af46af2ecdccc839113f2d29"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6464.jpg",
+      "sha256": "1b4c3342e3af6898503829c6f25106f80376a717b8fb856cf2c1183fb97b2c50"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6465.jpg",
+      "sha256": "7d22dba0f5609107ce140b7028f3f9804b598d34a1fdb21d4d0ee178be399587"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6465.jpg",
+      "sha256": "1e874e2aad416e948f373dea84016999fdaf06e6328f5738d6a49bc2a58c70cc"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6465.jpg",
+      "sha256": "bcee1500911e768cc9a49a46b2d1bfcd17850541c6994400ecc5a8df7ac6ac1f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6465.jpg",
+      "sha256": "e373ea5b2c3797b56d72a56590f9d19bceb22bb3416fa7dae2e8fb7b87684e59"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6465.jpg",
+      "sha256": "6df37e1b7cd921c3b16876fdcd042fb0732772d5638a8a4d6dc5a070579468ce"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6465.jpg",
+      "sha256": "ab8e55d6c1f33a1ef39b9f4d053a0b977dbcca51ef3b7a9c6a34bb35c8e33120"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6465.jpg",
+      "sha256": "0b8c4db17ad488327971f293782f04f5b62e40d07fd3eebcfbee8a6d5ce6a018"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6465.jpg",
+      "sha256": "0e7317d69d9064b8625059101b2b2da6ceec5e70740b60a89f6608a78155b71f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6465.jpg",
+      "sha256": "4edc6c9c9289fee0a0989572cd5a4271eb681c8fcdc87106272261fd7a021e15"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6465.jpg",
+      "sha256": "eda6d23a6a33c109ca5b5a3d5248b06ccd49f159d52c5b0b01c38a046e0db320"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6465.jpg",
+      "sha256": "46a40d9f3105a7340e03009425bbd236545240557a8c149c23aeb064d29f567e"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6466.jpg",
+      "sha256": "70a84b7dc6b6b338036057d4a728b1f8b2331eaa6502b8ddf0c81e572c3e75b3"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6466.jpg",
+      "sha256": "0ea2275ab20e8108ed295bb640f78ef5dfccd7833af1392d81cd95f9c361e7cc"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6466.jpg",
+      "sha256": "dc3d902fc7d259d43b0733e1ea50ebb208a1f5e04677c59c1ec70ccf3c5472f5"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6466.jpg",
+      "sha256": "cd14489c365c8a5159cbdd6fbced0d9c4fdf568d89f1d98bee0e2780030e0afa"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6466.jpg",
+      "sha256": "93dc206164ba7684f5e40f5bfbc83e94992324011cba21a5fb53df9e41007d61"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6466.jpg",
+      "sha256": "206774c18b492428f4973533e6f80a02d3f0af7d293958d49e63be552c5c4929"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6466.jpg",
+      "sha256": "9006e93899dc08a253e2911e9f5ccf59f15d4b0192e356334a70ec3a808fa064"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6466.jpg",
+      "sha256": "6abe5319bd0f1ec857d5bcb7ca399d2d34252d2816678e88641cea3e1e349a99"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6466.jpg",
+      "sha256": "d6ec85eec569fe56e8883aebe20aaa76e76a8ddd718cca96e7c47be7b5fa20e7"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6466.jpg",
+      "sha256": "b6fa659ae36cd0a162105043aa4ccc1a46457b8f9af92288d2bea12c7784a990"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6466.jpg",
+      "sha256": "0dcfa487ee4ce88e59e53a8911b9c0bd8761b9885e41d79889850c06c37ba10a"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6467.jpg",
+      "sha256": "ac5910a0491e230cb051d3c3c9ccc962ed2efce7efa74258a0668184bb8cc66b"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6467.jpg",
+      "sha256": "3d67d74d43b59062944bd50369ade2155f7bd5787ced2c1131d2d81e533917dc"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6467.jpg",
+      "sha256": "b87472d120555b0c4e30516be2ec55f3f5bc5533a678f6545a3c163eeb32262d"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6467.jpg",
+      "sha256": "7fec72bf0de49edd8adf602e5a7e5c74998d559286a4092947e9a04e743f1544"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6467.jpg",
+      "sha256": "e5d6b86a3a5d44ed28205d10f06f3c519dfbd4488aad335e9c6aa3426ae038cb"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6467.jpg",
+      "sha256": "9ebc8127a9ab58bf815d4d343a1cc3fc2e60d7f1154be3cbd525ebb4b028d884"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6467.jpg",
+      "sha256": "659437e2ae2c56c930e88443f6bfca7f9ac4f2339794a2f91e3cbcdc72fa0c72"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6467.jpg",
+      "sha256": "9f6599a6d9d22e464c290f6fefaec2346bcc6739e0b0e94a5d4aec9dae46a09f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6467.jpg",
+      "sha256": "edb169913db05df03b1d401678a6270c1d0c6c0adfa664964ca0a26bfd5517cc"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6467.jpg",
+      "sha256": "eb04f1d0b4c046735b93db9543a8dc931cb605e6fac04ba574c483c7115aa603"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6467.jpg",
+      "sha256": "997be5c2840f6febf203db916c3b76718c20b67dbda3ed1d04dcd509702c3d94"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6468.jpg",
+      "sha256": "fd992e8f7567114825b1d4f24f6d64c31a693efe0a7b1efc0fd12de4ff80d41d"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6468.jpg",
+      "sha256": "18f0f4d2cfbd0b97a6ca00d1cac78e22234faeb4a7e1c57644b6af44f50086c1"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6468.jpg",
+      "sha256": "7df7b9a45068851c1aff5bd0bcca9e1a8d7ee6747cd0853a115bc9bdd3b5d77f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6468.jpg",
+      "sha256": "9f6929c51eedd9b44f0511d8db597d52661906c7a299165ea2d0d3c7b68dda8d"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6468.jpg",
+      "sha256": "3acd2f530209c5cb7ccd0c908ce8c17a4afde948a9006fcb5f86f392ed3f1cc0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6468.jpg",
+      "sha256": "50fbcafa84c3e076bdcb55139f1329bdada3b8f1ff6ef661eac926c6bf8dc8b6"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6468.jpg",
+      "sha256": "cfa074946a61a180aab92d5bcc119f35b050c608fd7348e032b2f9e6d31c4699"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6468.jpg",
+      "sha256": "2dfbed37ae95e8440930f8a63522cb0e6695996bd20cc0dd768373f69cbba6b8"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6468.jpg",
+      "sha256": "a30e7e6aa3d732f494d5293aa1368880a5aae81ca164106fba76fdde3b50c25a"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6468.jpg",
+      "sha256": "74a4eeda12bfb14539acc91820acfab2b9c53ba8d67faa6038458ee86e8c51af"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6468.jpg",
+      "sha256": "c36ba407028917f120fbfc48b69ea37d3caf5d1cf5f4421024ec3cb91ce36943"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6469.jpg",
+      "sha256": "eda33de5def18240550018e824776831476ab314f24df946216bf14f070fe127"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6469.jpg",
+      "sha256": "6ddfd1a7e022ac3e5d93f4e8743fcd8e89d9507fbc542b6d7db21841ecf421ad"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6469.jpg",
+      "sha256": "8a4b9b2d5d1271285b09599dc9144d8a355fe2ee5a039d5ce339a4922043cae2"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6469.jpg",
+      "sha256": "1fb8d30ec0ce4bdd1f0c122d4d872337c050b2efa4a8322fd452cc4df2ded1fa"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6469.jpg",
+      "sha256": "f231ae8da61e1ad761266e9696fbe41efe1983f7aef499d33cbfb61e63f6fd15"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6469.jpg",
+      "sha256": "d483868ad5733e32bae3caa8c39d207f789c2c097335cf98e519d92a342679b6"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6469.jpg",
+      "sha256": "123dd2488e1dd43b474454e4ae5e92f587cd9b2f12c4a8599b1225012b2ceac4"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6469.jpg",
+      "sha256": "c59a1ed3c2d6b148262a6b83779ba361fe9939263b762fdbe06db840cfcb39b8"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6469.jpg",
+      "sha256": "4c52e23ec050a939b7fa522c48b1fc4ab3eab74dc14c024770609f891a6dcbdb"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6469.jpg",
+      "sha256": "77fd804b0248380f6fc7d1f235d29a81bfec27e8662fbd7e914954f543a82e91"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6469.jpg",
+      "sha256": "e43f53e40cf92d517723644458878ada0be5a54e731b1375abc5cf636be9fa21"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6470.jpg",
+      "sha256": "e558b9670fff098e595c2bbcbd6087dee24cf1ef1e255d9f4789833468d9efe9"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6470.jpg",
+      "sha256": "7ce321781835d779655f39f61769798a25a495de28fb104ce188467ab38c5b5f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6470.jpg",
+      "sha256": "f5ffa01daae3b02db587f95d4e76f691c01ddb01791324bb16781eee3a05df14"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6470.jpg",
+      "sha256": "f1d9465d9a683618b094a4cfea5434f88491bfe2a652fecdb47911580a668124"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6470.jpg",
+      "sha256": "ea24918a6411f41c989d7bad36b41769c7404a30dece883d07e6f7f58d249a19"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6470.jpg",
+      "sha256": "108944f36dd726ad724a188576f7e97c98b51d123e7461a022dd18132156cfda"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6470.jpg",
+      "sha256": "27d85d03340e8cd1662ca539099cd593f31aeae6fe1d29f74bef52da5bdc92d0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6470.jpg",
+      "sha256": "2389354df97e293b6092fd34bd0ec3ed3fbb665b1d63d30a3663843656005fad"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6470.jpg",
+      "sha256": "213f3f5e20fa0a702a8565e436e36208171f2146df27dfb51f735800c924ab75"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6470.jpg",
+      "sha256": "3a68ec2b66409a370152926dfe7062fe7bc31d08c4131cf8584254fa0be04643"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6470.jpg",
+      "sha256": "710a18d50b03e36e365a5533c32842bf5bc30b387eb4dc1f22357e5ff13f51c8"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6471.jpg",
+      "sha256": "5a8903cf35cc4159a2308232354a5e21f3224259dcee7e4b6a08f2dff66cc435"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6471.jpg",
+      "sha256": "a5418799c54357c4ee111023533c23ca6ae7057108336dbf69045ce86c26a6da"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6471.jpg",
+      "sha256": "97c12d3f7c09c4357db5238382888ff691b59bc2fab4e2c5d5a1a15d84f2bf8d"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6471.jpg",
+      "sha256": "3dbed2aaab29685cf0a3f6caff971087e59d9dfe46ed00f72a52bb403589f04e"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6471.jpg",
+      "sha256": "3ffc4b615c1f8347d670d7dcfacb93cf1ea7d4b875ca32f0385b2aa120326be9"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6471.jpg",
+      "sha256": "72aca5a70ef5aee5dccc0d796c371c79812a18a1a43d6bf3cb85c38ce3a94aa8"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6471.jpg",
+      "sha256": "f20fc63b37b7e6d03e0e691da5850ecee93a9dc165cd72e8cfe6e440838ab39c"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6471.jpg",
+      "sha256": "e28406e6816d754bbe86a9835e988b1314d9b7319cf9dd16c17bcb77394bb590"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6471.jpg",
+      "sha256": "4971f4ab070bd8a13904b157a285da4d90952d44756d23d9a9500cc6cbf7bdf4"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6471.jpg",
+      "sha256": "153e5112592bb9e630113ac7409f23602658e1d82a20e17cc491762cfddccbf4"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6471.jpg",
+      "sha256": "9121d4bd7de4659fa1a7e3ead2b649dd52a3e95151fdc744a62a54a7ec56aedc"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6472.jpg",
+      "sha256": "84cccef8b29945a4036387fcbbe248e4f71d1d287569fa76a58cdb051d52d0b3"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6472.jpg",
+      "sha256": "b858ef3b6b6e19d3030b35f7cdcbf434925cba7459c2d8837d434a621b5cc765"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6472.jpg",
+      "sha256": "7525d09471639e997c11e22f4369a09e0535230c407c12d55e34f06f23341d63"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6472.jpg",
+      "sha256": "92fda86c59ec494e38c9ad08009d69615d3a6a4478813b3630b041e401a614a6"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6472.jpg",
+      "sha256": "7c0d9bdf3566f48ecf9da801ce1d9adb6f0b2cf061ce19de6b1810c9471f9c9b"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6472.jpg",
+      "sha256": "5cf239f1a18231e9f2d8808acd94536c2f71eb0fc5748adc280b591c1858af67"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6472.jpg",
+      "sha256": "f7f43c2218fd66463819bdb5fcaeb90ad1ec20ce8991e594a84c303b6b44e99c"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6472.jpg",
+      "sha256": "f8598f84751e9ce84bc1d0df9ecccb7b2e37dceed5b309df07e0f04c9509c0c1"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6472.jpg",
+      "sha256": "f94bfb5e0e032e09df047b75c41b140085e117c59a7f7e14b1b88ed4990e2922"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6472.jpg",
+      "sha256": "326b2fb97682ae0740bbe859263acf2884fd758ea7379271ee4f8103e5d07106"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6472.jpg",
+      "sha256": "1bf38acb54a7b5dcce75e5e260557e86af95fb9231b2bbd968cbe873928351ef"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6473.jpg",
+      "sha256": "404a8d2626d422b05d3c9bf3af7737e74fcb4f1780d2abe6a4573f7527a5ad72"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6473.jpg",
+      "sha256": "9f70956ec2892ea665f43e6b3b1c04d379722e2d2e166b4bc6014913b22aa455"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6473.jpg",
+      "sha256": "8cc520a7791b3225f3573d4b587f2eb1a351a37638b9b6475bae23249fdcec63"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6473.jpg",
+      "sha256": "9dc6d12f9cff87156616ed1bf0481d96c1be2d9d2b8c54cf9e465101aec38df2"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6473.jpg",
+      "sha256": "2123bef8cbaf8cb966124bc78ffd015b6a18d7b0ea22537045ac94c9c6712e26"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6473.jpg",
+      "sha256": "a13a94767480628507ef9fc4b722a39ee426e0eb586cfddce930f971daef6e54"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6473.jpg",
+      "sha256": "1a041a26a0faf98e3310f310aa1b1cc9ec494a502f4a072dacecd628168ca2a0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6473.jpg",
+      "sha256": "2813562f9ca853670d237bfda10c99da2f52ca21712b440f178da735be4000c0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6473.jpg",
+      "sha256": "a80b9f39f89db77cbbe1b792886dd0251af2445d6ed495a919bf0b97ebce0438"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6473.jpg",
+      "sha256": "386d0ff9244045421573cc9807ea93ee838154400efa6d38b77b3684d9b412c0"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6473.jpg",
+      "sha256": "d1ae6264592a3c3a57de6520341913b7ddf6997a267ba0ffab526e87999e3105"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14500/6474.jpg",
+      "sha256": "6621ce94fcd9d74e7f3ba81a9540e3e16f020f6b53bab50878e067a361da1069"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14501/6474.jpg",
+      "sha256": "e3ec3ad05793d556ae390a1c87fbd6b327cd9bddbc1b93dd5f8fb4d827eca7c3"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14502/6474.jpg",
+      "sha256": "588f0ebb628b55bed675a33918a6d01d922a0c0a39ab1c3f16cf70cb3a266004"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14503/6474.jpg",
+      "sha256": "67ad747e4872115735fd0b820d317b06b8dd8349717744234efa69e3dce4d3de"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14504/6474.jpg",
+      "sha256": "ed6d7b91ab5bc831b599e681d2737e832b9958ece2da29723557cc321aa49487"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14505/6474.jpg",
+      "sha256": "53805d1ae7a9140848a64684bc6e0582d458a2a674f863d8eb2c0ee314cf3b69"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14506/6474.jpg",
+      "sha256": "fb1f87c06ee10ee940e02ffa22f80e3d6348498f68054d0498a2e54b9c55f1f3"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14507/6474.jpg",
+      "sha256": "4a991996daa89b8091f27a217b97b16a833a4d93d8da54fc0dbd2c696029dacd"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14508/6474.jpg",
+      "sha256": "651ca0a46bd51c760426c269bfa55f223aaa210c2a1d19c1a36b8448dae0c943"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14509/6474.jpg",
+      "sha256": "5957cc1334fc83f152ffc3e24a91147caebdd2c8020b9a0a88dca022d036168f"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/14/14510/6474.jpg",
+      "sha256": "a4d125d3703c7c6852c8aed3695d9cc127efd436659d1a81bab2e021a6b26cf1"
+    }
+  ]
+}

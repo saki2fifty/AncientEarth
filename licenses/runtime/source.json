@@ -1,0 +1,6 @@
+{
+  "toolchain": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "source": "Rust 1.97.1 official rustup toolchain share/doc/rust/COPYRIGHT-library.html",
+  "source_url": "https://www.rust-lang.org/policies/licenses",
+  "sha256": "0a65bb747c49c7bb816cbc7188319bd6e4e8d08091c1190b8a3c0971c47968ed"
+}
