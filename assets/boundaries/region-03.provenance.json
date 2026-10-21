@@ -1,0 +1,71 @@
+{
+  "schema": "ancientearth.boundaries.v1",
+  "id": "region-03",
+  "prepared_date": "2026-10-21",
+  "output_file": "region-03.aeb",
+  "output_sha256": "a9f3205bad0a9d789987748edb870a1e7beb70d0cb5794e3f851ff56d88ab56d",
+  "source": {
+    "filename": "N29_00_W096_00-WBM.tif",
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W096_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N29_00_W096_00_WBM.tif",
+    "sha256": "a2afb6371b5b5b5d2ff3ceb09ef46fc67af400dbe2bc9895682ae0e32faad4b4",
+    "license_review": "licenses/water-sources.json"
+  },
+  "source_affine_gdal": [
+    -96.00013888888888,
+    0.0002777777777777778,
+    0.0,
+    30.000138888888888,
+    0.0,
+    -0.0002777777777777778
+  ],
+  "source_row_bounds": [
+    528,
+    1176
+  ],
+  "source_column_bounds": [
+    1920,
+    2664
+  ],
+  "source_stride": 3,
+  "registration": {
+    "width": 249,
+    "height": 217,
+    "west": -95.46666666666667,
+    "north": 29.85333333333333,
+    "step_longitude_deg": 0.0008333333333333333,
+    "step_latitude_deg": 0.0008333333333333333
+  },
+  "format": "AEBNDR01: u32base_width,u32base_height;4f64 west,north,coarse_step_lon,coarse_step_lat;u32vertex_count,u32face_count;vertex_count local[row,column]f64pairs;face_count[3u32indices,u8class]. No height or ECEF coordinate is stored.",
+  "surface": {
+    "model": "Exact WGS84 ellipsoid for all physical queries",
+    "ellipsoidal_height_m": 0.0,
+    "presentation": "All parameters projected directly to WGS84 h=0; finite triangle chords are display approximations only"
+  },
+  "reconstruction": {
+    "refined_coarse_cells": 0,
+    "added_vertex_records": [],
+    "added_vertex_record_format": "Implicit global index original_width*original_height+list_position; [0,native_row,native_column] source post, [1,midpoint_row,midpoint_column] source-edge crossing, [2,a,b,c] source-parameter barycenter, [3,row,column,curve_index,t] cubic sample",
+    "added_vertex_counts_native_crossing_center_curve": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_ocean_posts_including_original": 0,
+    "curves": [],
+    "curve_flatness_source_grid_units": 0.0005,
+    "contour": "Binary native quad outer-edge midpoints, fixed NW-SE halves only for ambiguous checkerboards; G1 cubic rounding contained in each convex source parent, chord-monotone controls and bounded de Casteljau subdivision. All geographic parameters are projected to WGS84 h=0 for presentation; no heights are read. Inland category mixtures remain unresolved."
+  },
+  "triangle_counts_land_ocean_lake_river_mixed": [
+    104852,
+    0,
+    4,
+    110,
+    2170
+  ],
+  "limitations": [
+    "Regional categorical coverage only; no inferred global land or ocean.",
+    "Smooth reconstructed borders do not add surveyed source resolution.",
+    "No DEM, geoid displacement, terrain relief, tides, wave geometry or bathymetry."
+  ]
+}

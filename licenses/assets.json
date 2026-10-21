@@ -1,0 +1,998 @@
+{
+  "schema": "ancientearth.asset-license-review.v1",
+  "reviewed_date": "2026-10-20",
+  "policy": "Only source-reviewed assets permitting modification and redistribution, including commercial use. Preserve all source-specific conditions in NOTICE.md.",
+  "sources": {
+    "copernicus": {
+      "license": "Copernicus-WorldDEM-30",
+      "terms_url": "https://s3.waw3-1.cloudferro.com/swift/v1/portal_uploads_prod/CSCDA_ESA_Mission-specific_Annex_31_Oct_22_latest.pdf#page=21",
+      "credit": "Copernicus WorldDEM-30 / DLR / Airbus / EU / ESA",
+      "notice_marker": "produced using Copernicus WorldDEM-30",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true,
+      "license_file": "licenses/Copernicus-WorldDEM-30-eula_F.pdf",
+      "license_sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    "gsi": {
+      "license": "PDL-1.0",
+      "terms_url": "https://www.gsi.go.jp/ENGLISH/page_e30286.html",
+      "credit": "Created by editing GSI Tiles (Geospatial Information Authority of Japan)",
+      "notice_marker": "Created by editing",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "naip": {
+      "license": "Public-Domain",
+      "terms_url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+      "credit": "USGS, USDA, The National Map: Orthoimagery. January 09, 2025.",
+      "notice_marker": "USGS, USDA, The National Map",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "nasa": {
+      "license": "NASA-Earth-Observatory-Reuse",
+      "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "credit": "NASA Earth Observatory",
+      "notice_marker": "NASA Earth Observatory",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "geonames": {
+      "license": "CC-BY-4.0",
+      "terms_url": "https://www.geonames.org/about.html",
+      "credit": "GeoNames",
+      "notice_marker": "Creative Commons Attribution 4.0",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "natural-earth": {
+      "license": "Public-Domain",
+      "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "credit": "Made with Natural Earth",
+      "notice_marker": "Made with Natural Earth",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "project": {
+      "license": "MIT",
+      "terms_url": "https://github.com/saki2fifty/AncientEarth",
+      "credit": "AncientEarth contributors; third-party components separately credited",
+      "notice_marker": "original software",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "nga": {
+      "license": "Public-Domain",
+      "terms_url": "https://github.com/OSGeo/PROJ-data/blob/master/us_nga/us_nga_README.txt",
+      "credit": "NGA EGM2008 / GeographicLib / PROJ-data",
+      "notice_marker": "NGA EGM2008 / GeographicLib / PROJ-data",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "jpl-naif": {
+      "license": "NAIF-Kernel-Terms",
+      "terms_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+      "credit": "NASA / JPL / Caltech, JPL DE440 ephemeris team, NAIF / PDS",
+      "notice_marker": "JPL DE440 ephemeris team",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "astropy-iers": {
+      "license": "BSD-3-Clause",
+      "terms_url": "https://github.com/astropy/astropy-iers-data/blob/798223ef83d161f89f7feb0b75f7a212de6c0353/LICENSE.rst",
+      "credit": "IERS / USNO Earth orientation data via Astropy Developers",
+      "notice_marker": "Earth orientation data via Astropy Developers",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true
+    },
+    "noaa-gfs": {
+      "license": "Public-Domain",
+      "terms_url": "https://www.weather.gov/disclaimer",
+      "credit": "NOAA / NCEP Global Forecast System (GFS)",
+      "notice_marker": "NOAA / NCEP Global Forecast System (GFS)",
+      "reviewed": true,
+      "redistribution_allowed": true,
+      "modification_allowed": true,
+      "commercial_use_allowed": true,
+      "license_file": "licenses/NOAA-NWS-data-terms.html",
+      "license_sha256": "8919bb160c331dbee30b25a03f3061b9f934bf05bb684c62fd1680e44ae43b8f"
+    }
+  },
+  "assets": [
+    {
+      "path": "assets/terrain/fuji.aet",
+      "sha256": "9d28f2fdfb6159d93bd3da9ada70cf77cf04d8dbc8412e994932c4d90959ffb1",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/fuji.provenance.json",
+      "provenance_sha256": "3234354dbbf7b525f146650c0e5cfc241d9ddac41b110f0ef07511269a393a72"
+    },
+    {
+      "path": "assets/terrain/galveston.aet",
+      "sha256": "b09106b06fc660dd5a9aea86e478e0ae9719589459851a1b2694bd2ee699de2b",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/galveston.provenance.json",
+      "provenance_sha256": "8316407fa8859f17f60a29521e1088478f549fccb375cca2de0474570ab8033c"
+    },
+    {
+      "path": "assets/terrain/houston.aet",
+      "sha256": "f9b2105209538c51b1af96c94a05020b93392b5a35f99716efcfbd65aebc8979",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/houston.provenance.json",
+      "provenance_sha256": "b4e1399fa037f91b02469d7c810c05d7e31cf1b5c4ba36e061bb4b7688b65dea"
+    },
+    {
+      "path": "assets/terrain/tokyo.aet",
+      "sha256": "6204d8035168d4cbc8add22dd68eb32d832b4d8dd2cd3351c9aadf8634151a82",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/tokyo.provenance.json",
+      "provenance_sha256": "ddbdbb6bba1e5bb5100675a8ac1cce83af1a5cd50edb468df6cc3cb960e22a76"
+    },
+    {
+      "path": "assets/textures/blue-marble.jpg",
+      "sha256": "58c651aa38d1be1b2a89b1e8514ba9094ba7062410a76420ca08929dee3aa4fe",
+      "sources": [
+        "nasa"
+      ],
+      "provenance": "assets/textures/blue-marble.provenance.json",
+      "provenance_sha256": "25e6e7fdd5ce0a4fe5a5b6a67faf06d9fd02934f37c665dd0c6fdb30f97a0839"
+    },
+    {
+      "path": "assets/textures/earth.jpg",
+      "sha256": "1466787b99a85609d6b811629ddf6dd400aa5d915d1d2a5fc1e26b68b9ac83e2",
+      "sources": [
+        "natural-earth"
+      ],
+      "provenance": "assets/textures/earth.provenance.json",
+      "provenance_sha256": "8490d40e9c391bf037cc90f6090c6184464ec6b571ea322dd9348cff6027fd8e"
+    },
+    {
+      "path": "assets/textures/fuji-aerial.jpg",
+      "sha256": "f6e6b7a08090866634588730f42bdb86c1ed20a0a75f02eddf1b64bf735198d8",
+      "sources": [
+        "gsi"
+      ],
+      "provenance": "assets/textures/fuji-aerial.provenance.json",
+      "provenance_sha256": "d7461526ad751cd63bcb064874ecde0029e9700506b0e648eaf11fcaca94addc"
+    },
+    {
+      "path": "assets/textures/galveston-aerial.png",
+      "sha256": "26a9bb919e51dd029ef029e08e339d30e9d07e3c24d0b977413116bb4527e155",
+      "sources": [
+        "naip"
+      ],
+      "provenance": "assets/textures/galveston-aerial.provenance.json",
+      "provenance_sha256": "7c291eb9a97e41ff954269e4928b134053bfd669433f61ebaae63ef65ff2526d"
+    },
+    {
+      "path": "assets/textures/houston-aerial.png",
+      "sha256": "5bd072bcd1c81127a0918a1af199a91fb18f7f6badbc5104b4f81c74067807fc",
+      "sources": [
+        "naip"
+      ],
+      "provenance": "assets/textures/houston-aerial.provenance.json",
+      "provenance_sha256": "933751c165d61a030c30feb2f27a8f79708d2ec034caffb3e2568b7d266efa85"
+    },
+    {
+      "path": "assets/textures/tokyo-aerial.jpg",
+      "sha256": "22cea8d6ad55cc53f0050972ae610613462fcfb42fffffac6b6006be7c2fef55",
+      "sources": [
+        "gsi"
+      ],
+      "provenance": "assets/textures/tokyo-aerial.provenance.json",
+      "provenance_sha256": "f5d9a1f542849e4606327769eedd75a13d2645582ae3af26da30c1c112c2ae3f"
+    },
+    {
+      "path": "docs/images/overview.png",
+      "sha256": "5bb7c05c74e98c9eccfe96b082c053454f119edd80be8a61d0f71c1da2b0c2b7",
+      "sources": [
+        "project",
+        "natural-earth",
+        "geonames"
+      ]
+    },
+    {
+      "path": "docs/images/terrain-fuji.png",
+      "sha256": "4486bb00f354824fda4b86198bd1ed63a8e7f9927d9f9d0d8c38801503cff941",
+      "sources": [
+        "project",
+        "copernicus",
+        "gsi",
+        "nasa",
+        "geonames",
+        "nga"
+      ]
+    },
+    {
+      "path": "docs/images/terrain-galveston.png",
+      "sha256": "4951ef692c79dcb5f992eb1151090590036409129d23db054854595dc5721f82",
+      "sources": [
+        "project",
+        "copernicus",
+        "naip",
+        "nasa",
+        "geonames",
+        "nga"
+      ]
+    },
+    {
+      "path": "docs/images/terrain-houston.png",
+      "sha256": "81d00f94f8af4e7b6de3952b8fe9f5f4ab8c6f53254d71a4c6e12fc6384a366d",
+      "sources": [
+        "project",
+        "copernicus",
+        "naip",
+        "nasa",
+        "geonames",
+        "nga"
+      ]
+    },
+    {
+      "path": "docs/images/terrain-tokyo.png",
+      "sha256": "3fb97ff610c41016717b28a77f7e11ee3e604a19aedd30437d1f85015b6d40ef",
+      "sources": [
+        "project",
+        "copernicus",
+        "gsi",
+        "nasa",
+        "geonames",
+        "nga"
+      ]
+    },
+    {
+      "path": "assets/geoid/egm2008-native.aeg.gz",
+      "sha256": "f94e40e5e2cbe581ccfc8ed7126bb4e837a66db6e899e30fdf25e4a5fbc28bbe",
+      "sources": [
+        "nga"
+      ],
+      "provenance": "assets/geoid/egm2008-native.provenance.json",
+      "provenance_sha256": "4f55c32017d02fc3577aed77ff9eddb01939a3c7741a5f62f59088f3cea7e416"
+    },
+    {
+      "path": "docs/images/observation-houston.png",
+      "sha256": "b4859d9cd623da6b5efc61ed7b3b0a609930dbbf21be0bae2571a3d63c81ee87",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "naip",
+        "nasa",
+        "geonames"
+      ]
+    },
+    {
+      "path": "assets/astronomy/de440s.bsp",
+      "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+      "sources": [
+        "jpl-naif"
+      ],
+      "provenance": "assets/astronomy/de440s.bsp.provenance.json",
+      "provenance_sha256": "90cb207d7a4725afdba91c76d48d556eb7b33e9fcdbe74a46449be126bbe6d34"
+    },
+    {
+      "path": "assets/astronomy/finals2000A.all",
+      "sha256": "bfa2066aab0400b075357f573af6081e0068a518993609eee0c5ca991bab0845",
+      "sources": [
+        "astropy-iers"
+      ],
+      "provenance": "assets/astronomy/finals2000A.all.provenance.json",
+      "provenance_sha256": "abd438bb2155dbe1b6c622f23a4a23bd2bcbdc5f2ae29711c9bf2f58da118f8e"
+    },
+    {
+      "path": "docs/images/gpu-houston.png",
+      "sha256": "d0dd86bfaa107e7c89eb18297084060d04522c0f295cbffb22738ddca767fbe0",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20; original procedural artwork, Copernicus-derived terrain and credited scientific data. No photographic map assets. UI/font and ERFA notices are preserved in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/gpu-fuji.png",
+      "sha256": "05948790fa04ec64ee4e0f0544abe2a9ccce152390c55e817974c915becfd807",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20; original procedural artwork, Copernicus-derived terrain and credited scientific data. No photographic map assets. UI/font and ERFA notices are preserved in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/gpu-fisheye.png",
+      "sha256": "29425aee3c8a4a28b0d2c69f9e075b669e7b5a3f58c7906810d69a9cfbce2b20",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20; original procedural artwork, Copernicus-derived terrain and credited scientific data. No photographic map assets. UI/font and ERFA notices are preserved in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/gpu-moon.png",
+      "sha256": "d39f01fda806ef221bd7d2bf552a213d06ec534545a0f1b6f4fdea90d5361f50",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20; original procedural artwork, Copernicus-derived terrain and credited scientific data. No photographic map assets. UI/font and ERFA notices are preserved in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/gpu-night.png",
+      "sha256": "0c1994fccc3103d96638c4be88127d6d5bc8f73e89a8ade7863d148a57faa9cc",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20; original procedural artwork, Copernicus-derived terrain and credited scientific data. No photographic map assets. UI/font and ERFA notices are preserved in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/polish-houston.png",
+      "sha256": "72604f7392096d375d54104e6686e97a5e5a9b36b27bbcfb5b3d21508231133f",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, procedural ground and grass polish revision. Original procedural art and Copernicus-derived terrain; no photographic imagery. Scientific source credits and modification notices are preserved in NOTICE.md; UI/font and ERFA notices are in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/polish-low-sun.png",
+      "sha256": "7a53bda7ed2489f77282e2b87dd48e4d61b2c40023edf2541995f60bf6ddbe94",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, procedural ground and grass polish revision. Original procedural art and Copernicus-derived terrain; no photographic imagery. Scientific source credits and modification notices are preserved in NOTICE.md; UI/font and ERFA notices are in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/polish-fuji.png",
+      "sha256": "60369c533480668d2b02c27e3d4bbd8bc8a33ef1e993cd09a055a9ff2f9e507f",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, procedural ground and grass polish revision. Original procedural art and Copernicus-derived terrain; no photographic imagery. Scientific source credits and modification notices are preserved in NOTICE.md; UI/font and ERFA notices are in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/polish-fisheye.png",
+      "sha256": "1111f65f125fd558f0e2850a1a9e789b77d694d7fd1e8c708d6874df70d3f501",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, procedural ground and grass polish revision. Original procedural art and Copernicus-derived terrain; no photographic imagery. Scientific source credits and modification notices are preserved in NOTICE.md; UI/font and ERFA notices are in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/polish-night.png",
+      "sha256": "4de591ac5bdd0ce0f083a66865b17ecf2306e85c0bc099942392f2aac87f0af4",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, procedural ground and grass polish revision. Original procedural art and Copernicus-derived terrain; no photographic imagery. Scientific source credits and modification notices are preserved in NOTICE.md; UI/font and ERFA notices are in THIRD_PARTY_LICENSES.txt."
+    },
+    {
+      "path": "docs/images/eclipse-dallas-globe.png",
+      "sha256": "e41b107b076b967aeaf515eaf5c707a88427898417eb66d14ccc8a2e5c6735f5",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Dallas total-eclipse demonstration, from space. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-dallas-later.png",
+      "sha256": "5333f381edc61f351ac0d3656f753f810644c30ee0f5214e13a0ce5a9793c3f6",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Same Dallas space view at 2024-04-08 19:12:00 UTC. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-dallas-ground.png",
+      "sha256": "eaf82af074312dfed9ea7093235081f2b682d936321bcbb34bd2dde5c696f394",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Dallas total-eclipse demonstration, on the reference surface. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-daylight-ground.png",
+      "sha256": "56359b9f06dbd9707b1ca3a3909267e791fa81b376ac7b7db98a0564e33fec76",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Dallas daylight comparison, on the reference surface. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-houston-daylight.png",
+      "sha256": "e860cb66d43767ee3b09b7982e0618844745ab6f3b58384d4d050e2e3acefb43",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Houston daylight comparison, on Copernicus-derived terrain. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-albuquerque-ring.png",
+      "sha256": "5f24448fa5a041b8e4b406e66305f95849eddb1351aba96f2ab6ab11fd062abf",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Albuquerque annular-eclipse demonstration, telescope aimed at Sun. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-houston-partial.png",
+      "sha256": "10861e4bff7f7a32355ab039a79e11995ffa66cf39accf58a61f46d647592c3e",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Houston partial-eclipse demonstration, on Copernicus-derived terrain. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/eclipse-dallas-fisheye.png",
+      "sha256": "cc75efdd56ed1f73ffd46ce07cabbf6307159be21aa99e19017ddc451f2540df",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Dallas total-eclipse demonstration, equidistant fisheye. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering with no photographic imagery. Project MIT terms and underlying data credits, modifications and redistribution terms remain in NOTICE.md and licenses/. UI/font and ERFA software notices are in THIRD_PARTY_LICENSES.txt. This is a rendering demonstration, not a photograph or measured radiometry."
+    },
+    {
+      "path": "docs/images/guides-horizon-final.png",
+      "sha256": "1b18c7e17578cdd5d10a8267dcd7b3c67d52ecd7a712078b2ccb1d37b3e6f05a",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Rectilinear horizon with chord, WGS84 geodesic and vertical reference ruler. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, font, ERFA and GeographicLib software notices are preserved in THIRD_PARTY_LICENSES.txt. A model demonstration, not a photograph or survey."
+    },
+    {
+      "path": "docs/images/guides-fisheye-hidpi.png",
+      "sha256": "5cec19dd97db803eca79c9323e0ad410dbcea4a238d47b440d1fcf3f4a72dda9",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Fisheye horizon at 1.5 display scale with imperial ruler labels. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, font, ERFA and GeographicLib software notices are preserved in THIRD_PARTY_LICENSES.txt. A model demonstration, not a photograph or survey."
+    },
+    {
+      "path": "docs/images/guides-rolled.png",
+      "sha256": "2d5376e9fb49d9af6386ca262e9fae5c6e26d85a262fb6b138326bd6438ec2f8",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Tilted camera with horizontal skyline reference and vertical ruler. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, font, ERFA and GeographicLib software notices are preserved in THIRD_PARTY_LICENSES.txt. A model demonstration, not a photograph or survey."
+    },
+    {
+      "path": "docs/images/guides-sky.png",
+      "sha256": "784c696999137b9f1fb9a371c50f2f0f244ff08975843502efb3b87a36d8b6fd",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Sky-only view explicitly reporting unavailable Earth skyline. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, font, ERFA and GeographicLib software notices are preserved in THIRD_PARTY_LICENSES.txt. A model demonstration, not a photograph or survey."
+    },
+    {
+      "path": "assets/terrain/fuji.aew",
+      "sha256": "30d30aa33936f5f5591aaccb1957685c7d8372f2c42e72a7600589408c744625",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/fuji.water.provenance.json",
+      "provenance_sha256": "951ad0a15cf6243edbb0607cf626380fb1c896b85a796d660366c970ffa7e69c",
+      "description": "Reviewed refined regional surface derived only from the existing licensed Copernicus DSM and matching Water Body Mask, with the public-domain NGA geoid. Native coastal samples, modeled contour crossings and stitched transitions are recorded in provenance. Original elevation files and source-post heights remain preserved; between-post interpolation is modified. Original Copernicus terms, attribution, modification and liability notices remain in licenses/ and NOTICE.md."
+    },
+    {
+      "path": "assets/terrain/tokyo.aew",
+      "sha256": "c8772e886ea0d87018ce0c8d01ff21f0145930e52e117d1a64964feceb3f7d9b",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/tokyo.water.provenance.json",
+      "provenance_sha256": "bcfa0e9d71133156ed242a3c9943518b9376b38bafd135a4e9ddf4d045e7df01",
+      "description": "Reviewed refined regional surface derived only from the existing licensed Copernicus DSM and matching Water Body Mask, with the public-domain NGA geoid. Native coastal samples, modeled contour crossings and stitched transitions are recorded in provenance. Original elevation files and source-post heights remain preserved; between-post interpolation is modified. Original Copernicus terms, attribution, modification and liability notices remain in licenses/ and NOTICE.md."
+    },
+    {
+      "path": "assets/terrain/houston.aew",
+      "sha256": "74d05418bfa036d9f02ab096f730b67ce331ff47f9702ed7ab5be3dc7d0249a7",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/houston.water.provenance.json",
+      "provenance_sha256": "a4efb458644a8e9ada4d8551b688df765b49ddf1b763be117de85d6d2db7f5f8",
+      "description": "Reviewed refined regional surface derived only from the existing licensed Copernicus DSM and matching Water Body Mask, with the public-domain NGA geoid. Native coastal samples, modeled contour crossings and stitched transitions are recorded in provenance. Original elevation files and source-post heights remain preserved; between-post interpolation is modified. Original Copernicus terms, attribution, modification and liability notices remain in licenses/ and NOTICE.md."
+    },
+    {
+      "path": "assets/terrain/galveston.aew",
+      "sha256": "daff496052965582c5962cc6309925ab63df3cdf7e4b2b752b5b92bc7f8bb4a9",
+      "sources": [
+        "copernicus",
+        "nga"
+      ],
+      "provenance": "assets/terrain/galveston.water.provenance.json",
+      "provenance_sha256": "5c338e69f0ec514b003b7e2e40bc58b3611c31fd981f12179b48cef42b6b9397",
+      "description": "Reviewed refined regional surface derived only from the existing licensed Copernicus DSM and matching Water Body Mask, with the public-domain NGA geoid. Native coastal samples, modeled contour crossings and stitched transitions are recorded in provenance. Original elevation files and source-post heights remain preserved; between-post interpolation is modified. Original Copernicus terms, attribution, modification and liability notices remain in licenses/ and NOTICE.md."
+    },
+    {
+      "path": "docs/images/water-galveston-overview.png",
+      "sha256": "ac3d16df871a0d1353132a3cbd9a4a8bcdd8a14651244a0dc0fd213c89977951",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Galveston island and bay with classified water. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, 1920x1080. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, embedded fonts, ERFA and GeographicLib notices remain in THIRD_PARTY_LICENSES.txt. Finite regional model demonstration, not a photograph, survey or observed ocean forecast."
+    },
+    {
+      "path": "docs/images/water-coast.png",
+      "sha256": "e3a94156be46c6e234d872057f231cff1b59623a4bd8acfcf4605740145c40cd",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Galveston coast with ocean range and land beneath the observer. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, 1920x1080. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, embedded fonts, ERFA and GeographicLib notices remain in THIRD_PARTY_LICENSES.txt. Finite regional model demonstration, not a photograph, survey or observed ocean forecast."
+    },
+    {
+      "path": "docs/images/water-fisheye.png",
+      "sha256": "36b9c56ff00b5c37512a4488aa903df6338b6f52f6c3071140b02582de636d67",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "On-water fisheye view with imperial measurements. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, 1920x1080. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, embedded fonts, ERFA and GeographicLib notices remain in THIRD_PARTY_LICENSES.txt. Finite regional model demonstration, not a photograph, survey or observed ocean forecast."
+    },
+    {
+      "path": "docs/images/water-telescope.png",
+      "sha256": "20e1a61b13b70ae8f9a51d2282f9494ebc0df4877b8b3343708b0bd3c9df369d",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Telescope view of the modeled ocean surface. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, 1920x1080. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, embedded fonts, ERFA and GeographicLib notices remain in THIRD_PARTY_LICENSES.txt. Finite regional model demonstration, not a photograph, survey or observed ocean forecast."
+    },
+    {
+      "path": "docs/images/water-night.png",
+      "sha256": "801f0f167397b4f492afcf6a0d0505bd601d2a578bdf2cc3c1324c36e6d0e916",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Night lighting over the modeled ocean surface. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-20, 1920x1080. Original procedural rendering without photographic imagery. Project MIT terms and all underlying data credits, modification notices and redistribution terms remain in NOTICE.md and licenses/. UI, embedded fonts, ERFA and GeographicLib notices remain in THIRD_PARTY_LICENSES.txt. Finite regional model demonstration, not a photograph, survey or observed ocean forecast."
+    },
+    {
+      "path": "docs/images/shoreline-coast.png",
+      "sha256": "73c9ce823ffe7c46060925df049f83a6b44c43e1702b9c08301361102e602a99",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Galveston coastal surface with refined water boundary. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. This is a finite source-based reconstruction, not a photograph, surveyed beach outline or instantaneous water forecast."
+    },
+    {
+      "path": "docs/images/shoreline-along.png",
+      "sha256": "d385d43e5d38905229fb1acf4d7102b80cb33e874bb611276f9ce9f0c0fd49a9",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Oblique Galveston shoreline inspection preset. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. This is a finite source-based reconstruction, not a photograph, surveyed beach outline or instantaneous water forecast."
+    },
+    {
+      "path": "docs/images/shoreline-fisheye.png",
+      "sha256": "d7a9fb7606bec7d95b556c264ed3139ddfb8effb3fbb376301fa5f745cd2c77c",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Refined coastline through the fisheye projection. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. This is a finite source-based reconstruction, not a photograph, surveyed beach outline or instantaneous water forecast."
+    },
+    {
+      "path": "docs/images/shoreline-telescope.png",
+      "sha256": "16382e2f0a571f8b6c40235d7dbd26fda9a8f9bfbcee5274437fa7626811d170",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "geonames",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Refined coastline through the telescope. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. This is a finite source-based reconstruction, not a photograph, surveyed beach outline or instantaneous water forecast."
+    },
+    {
+      "path": "assets/boundaries/region-01.aeb",
+      "sha256": "f6e0e626a41f7fa4afe7077c89d7cf1bdb51c68a613917c8c5c998fce56e448b",
+      "sources": [
+        "copernicus"
+      ],
+      "provenance": "assets/boundaries/region-01.provenance.json",
+      "provenance_sha256": "bca11d7b318a65191f1a965354f862464a889b01bb2d9b6f9e843776a6b490a9",
+      "description": "Height-free regional land/water categories and reconstructed borders derived solely from the reviewed Copernicus Water Body Mask. No elevation map, geoid displacement or photographic input. The application places the categories on its smooth WGS84 reference surface. Original source rights, credits, modification and liability notices remain in NOTICE.md and licenses/."
+    },
+    {
+      "path": "assets/boundaries/region-02.aeb",
+      "sha256": "e9b14d5f1be740b653b7e9ed2b0b1a34ed7f2499a712e761caa5f77f04d12a96",
+      "sources": [
+        "copernicus"
+      ],
+      "provenance": "assets/boundaries/region-02.provenance.json",
+      "provenance_sha256": "3759b8338f509e7caa3b8266f9c81779adb8e04abbb04f1fe23d8a5cdad4e876",
+      "description": "Height-free regional land/water categories and reconstructed borders derived solely from the reviewed Copernicus Water Body Mask. No elevation map, geoid displacement or photographic input. The application places the categories on its smooth WGS84 reference surface. Original source rights, credits, modification and liability notices remain in NOTICE.md and licenses/."
+    },
+    {
+      "path": "assets/boundaries/region-03.aeb",
+      "sha256": "a9f3205bad0a9d789987748edb870a1e7beb70d0cb5794e3f851ff56d88ab56d",
+      "sources": [
+        "copernicus"
+      ],
+      "provenance": "assets/boundaries/region-03.provenance.json",
+      "provenance_sha256": "5d71b8f18c90e5106dc846a94f6622df33493ec31bb929108733baac753ab2c6",
+      "description": "Height-free regional land/water categories and reconstructed borders derived solely from the reviewed Copernicus Water Body Mask. No elevation map, geoid displacement or photographic input. The application places the categories on its smooth WGS84 reference surface. Original source rights, credits, modification and liability notices remain in NOTICE.md and licenses/."
+    },
+    {
+      "path": "assets/boundaries/region-04.aeb",
+      "sha256": "03d2937f9af73df3a8d929a55293636fbcb642d9253a149880c80cf116649b8e",
+      "sources": [
+        "copernicus"
+      ],
+      "provenance": "assets/boundaries/region-04.provenance.json",
+      "provenance_sha256": "66e9b6617ef5fe0e05291033e1de622d1eee4d71c916127e61bf35212028344a",
+      "description": "Height-free regional land/water categories and reconstructed borders derived solely from the reviewed Copernicus Water Body Mask. No elevation map, geoid displacement or photographic input. The application places the categories on its smooth WGS84 reference surface. Original source rights, credits, modification and liability notices remain in NOTICE.md and licenses/."
+    },
+    {
+      "path": "docs/images/boundary-coast.png",
+      "sha256": "1c86f9d6d62cf342c9ad95ea0920179db22667c015f479952e4dc32c01f810a4",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Land and water sharing the smooth WGS84 surface with regional mask boundaries. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Water-mask coverage is regional; these modeled boundaries are not surveyed shorelines or instantaneous water forecasts."
+    },
+    {
+      "path": "docs/images/boundary-ground.png",
+      "sha256": "37a5e5a8d0d2708b3f3b7dcd0947151177d9a755c609abb84f0be2634ca73e85",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Ground-level grass and shadows above the smooth reference surface. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Water-mask coverage is regional; these modeled boundaries are not surveyed shorelines or instantaneous water forecasts."
+    },
+    {
+      "path": "docs/images/boundary-overview.png",
+      "sha256": "93e4182bdaeef83d5ef389e2df4aeca17e850089b99d6817a51e16556f3c7d2b",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Generic globe overview without location markers. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Water-mask coverage is regional; these modeled boundaries are not surveyed shorelines or instantaneous water forecasts."
+    },
+    {
+      "path": "docs/images/boundary-fisheye.png",
+      "sha256": "5c673ac3a81bfc9e83fded49ad1297d4058075c7f0193ed0e33175d35536ef07",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Circular fisheye with imperial measurements and the horizontal/vertical guides. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Water-mask coverage is regional; these modeled boundaries are not surveyed shorelines or instantaneous water forecasts."
+    },
+    {
+      "path": "docs/images/boundary-telescope.png",
+      "sha256": "964fc615052567641d9f230b41a470d53b97df97139078d4319ea3ad5ade10fb",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Telescope view of the smooth land surface with geometric range readouts. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Water-mask coverage is regional; these modeled boundaries are not surveyed shorelines or instantaneous water forecasts."
+    },
+    {
+      "path": "assets/weather/gfs-reference.grib2",
+      "sha256": "0b5b4658c61b74deae99b2e45cd4391ca120b2bfaee7d7d8b409f146559f3446",
+      "sources": [
+        "noaa-gfs"
+      ],
+      "provenance": "assets/weather/gfs-reference.provenance.json",
+      "provenance_sha256": "8c6f4a9c2dbab491bcbe406adcbd2f0fc9658996abd8414fd406af18d78f7d42",
+      "description": "Unmodified NOAA/NCEP GFS GRIB2 verification subset. Fixed forecast valid 2026-10-21 19:00 UTC; never substituted for a failed live request. Retain NOAA attribution, source, timestamps and modification notices. Public-domain NOAA data; no endorsement."
+    },
+    {
+      "path": "docs/images/weather-reference-coast.png",
+      "sha256": "d507dbba9e475811db152264332baa865aaac8c9affb38f253232d54cc8d23da",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Weather toggle, explicitly labeled NOAA verification profile and curved-ray coast display. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-horizon-refracted.png",
+      "sha256": "052236a8828c3dcaf4b3296ab01394f8707a7a7a33e96a97a6ad9782570e6ab6",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Magnified model horizon with atmospheric refraction and clean-view guides. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-horizon-geometric.png",
+      "sha256": "a9b69d7a99bbab0dff3bbee06f8f5c3de027261d3b6d1da96e61c1dced0c5e91",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Matching magnified geometric horizon without atmospheric refraction. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-clean-guides.png",
+      "sha256": "7cdee7399506cba1ab11d88572034b947a05e26e0148ee028050ecaf5c2090f3",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Clean view retains horizontal and vertical guides with geometric high-altitude fallback identified. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-fisheye.png",
+      "sha256": "06d29a5ce7e671e4b90eed3001251fa506d73beb83d4e64d7c64f81a3fa5f27e",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Curved-ray fisheye with imperial measurements and clean-view guides. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-overview-check.png",
+      "sha256": "15bf9cb914e078987471abb53b0b5563ebf44a633df113d2d4bf1938178ab5e1",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Globe overview explicitly identifies geometric fallback above the supported optical eye-height domain. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/weather-moon.png",
+      "sha256": "65a556ef7430e2754c351adf1d5d96e6d9ef277983bc64d89a6573ce39548471",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Moon telescope through the optical model with the fixed NOAA verification profile. Unmodified native Ancient Earth DirectX 12 screenshot, 2026-10-21, 1920x1080. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Atmospheric appearance is a finite numerical model using a forecast verification snapshot, not observed local weather or a guarantee of actual mirage conditions. Regional water-mask limits remain applicable."
+    },
+    {
+      "path": "docs/images/github-ground.png",
+      "sha256": "37199db1d55f9eb4379440f60a4d366114a9d948db1a7aeed3ccfd76a882994e",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers"
+      ],
+      "description": "Ground-level geometric view with procedural grass, shadows and the disabled weather toggle. Unmodified native Ancient Earth DirectX 12 screenshot captured 2026-10-21 at 1920x1080 for repository publication. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Forecast and display limits remain documented; this screenshot is not a measurement of actual local atmospheric conditions."
+    },
+    {
+      "path": "docs/images/github-weather.png",
+      "sha256": "c76df7273ef122285a7b883e33a7b37170be6a86e36b937296d86d2eab34d32d",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "Enabled atmospheric display with the explicitly labeled fixed NOAA verification snapshot and weather controls. Unmodified native Ancient Earth DirectX 12 screenshot captured 2026-10-21 at 1920x1080 for repository publication. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Forecast and display limits remain documented; this screenshot is not a measurement of actual local atmospheric conditions."
+    },
+    {
+      "path": "docs/images/github-clean-guides.png",
+      "sha256": "7cdee7399506cba1ab11d88572034b947a05e26e0148ee028050ecaf5c2090f3",
+      "sources": [
+        "project",
+        "copernicus",
+        "nga",
+        "jpl-naif",
+        "astropy-iers",
+        "noaa-gfs"
+      ],
+      "description": "F2 clean view retaining both measurement guides and the explicit high-altitude geometric fallback status. Unmodified native Ancient Earth DirectX 12 screenshot captured 2026-10-21 at 1920x1080 for repository publication. Original procedural presentation without photographic imagery, topographic relief or city markers. Project MIT terms and underlying source attribution, modification notices and redistribution terms remain in NOTICE.md and licenses/. Embedded font and software notices remain in THIRD_PARTY_LICENSES.txt. Forecast and display limits remain documented; this screenshot is not a measurement of actual local atmospheric conditions."
+    }
+  ]
+}

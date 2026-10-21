@@ -1,0 +1,43 @@
+[workspace]
+members = ["crates/earth-math"]
+resolver = "3"
+
+[package]
+name = "ancient-earth"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97.1"
+description = "A WGS84 Earth explorer with audited double-precision geometry"
+license = "MIT"
+repository = "https://github.com/saki2fifty/AncientEarth"
+
+[features]
+default = ["desktop"]
+desktop = ["dep:bevy", "dep:dear-imgui-bevy", "dep:dear-imgui-rs"]
+
+[dependencies]
+earth-math = { path = "crates/earth-math" }
+serde_json = "1"
+flate2 = "=1.1.10"
+ureq = { version = "=3.4.2", default-features = false, features = ["rustls"] }
+ring = "=0.17.14"
+bevy = { version = "=0.20.0", default-features = false, features = ["2d", "bevy_pbr", "bevy_light", "bevy_anti_alias", "default_platform", "png"], optional = true }
+dear-imgui-bevy = { version = "=0.21.0", default-features = false, features = ["render"], optional = true }
+dear-imgui-rs = { version = "=0.21.0", optional = true }
+
+[[bin]]
+name = "ancient-earth"
+path = "src/main.rs"
+required-features = ["desktop"]
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.dev.package.earth-math]
+opt-level = 3
+
+[profile.release]
+lto = "thin"

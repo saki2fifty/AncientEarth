@@ -1,0 +1,228 @@
+{
+  "schema": "ancientearth.geoid-provenance.v1",
+  "prepared_date": "2026-10-20",
+  "dataset": "NGA EGM2008 native 2.5 arc-minute geoid undulation grid distributed by PROJ",
+  "source_file": "us_nga_egm08_25.tif",
+  "source_url": "https://cdn.proj.org/us_nga_egm08_25.tif",
+  "source_sha256": "4191d471eefebf24091b56dbc604353cb3b8cf8cc70e448bb9ae56a272bef17a",
+  "source_metadata": {
+    "TIFFTAG_IMAGEDESCRIPTION": "WGS 84 (EPSG:4979) to EGM2008 height (EPSG:3855). Converted from egm08_25.gtx (last modified at 2018/10/08)",
+    "TIFFTAG_DATETIME": "2019:12:27 00:00:00",
+    "TIFFTAG_COPYRIGHT": "Derived from work by NGA. Public Domain",
+    "area_of_use": "World",
+    "target_crs_epsg_code": "3855",
+    "TYPE": "VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL",
+    "AREA_OR_POINT": "Point"
+  },
+  "source_affine_gdal": [
+    -180.02083333333334,
+    0.041666666666666664,
+    0.0,
+    90.02083333333333,
+    0.0,
+    -0.041666666666666664
+  ],
+  "output_file": "egm2008-native.aeg.gz",
+  "output_sha256": "f94e40e5e2cbe581ccfc8ed7126bb4e837a66db6e899e30fdf25e4a5fbc28bbe",
+  "output_bytes": 81581387,
+  "native_float32_payload_bytes": 149333760,
+  "native_float32_payload_sha256": "b1c1b3c8ee175ffbcc83ace4099a600b6afbfc9fa3a832c0255a86dbfad53510",
+  "decoded_float32_payload_sha256": "b1c1b3c8ee175ffbcc83ace4099a600b6afbfc9fa3a832c0255a86dbfad53510",
+  "decoded_payload_bitwise_equals_source": true,
+  "dimensions_samples": [
+    8640,
+    4321
+  ],
+  "west_sample_center_degrees": -180.0,
+  "north_sample_center_degrees": 90.0,
+  "positive_longitude_step_degrees": 0.041666666666666664,
+  "positive_latitude_step_degrees": 0.041666666666666664,
+  "east_sample_center_degrees": 179.95833333333331,
+  "south_sample_center_degrees": -90.0,
+  "registration": "PixelIsPoint; GDAL source.xy(row,column) returns sample centers, with no additional half-cell shift",
+  "longitude_periodic": true,
+  "longitude_seam": "8640 unique longitudes; interpolate east neighbor of final column using column zero",
+  "north_pole_undulation_metres": 14.8985013961792,
+  "south_pole_undulation_metres": -30.14996910095215,
+  "polar_rows_bitwise_constant": true,
+  "geoid_undulation_range_metres": [
+    -106.90872192382812,
+    85.82378387451172
+  ],
+  "resampling": "None: all 8640x4321 native float32 samples preserved bit-for-bit",
+  "height_semantics": "N is geoid undulation above the WGS84 ellipsoid; ellipsoidal height h = EGM2008 orthometric height H + N",
+  "recommended_sampling": "Bilinear in geographic longitude/latitude, wrapping the longitude seam; explicit polar rows",
+  "container": "gzip, compression level 9, mtime=0, no original filename",
+  "binary_header": {
+    "bytes": 48,
+    "struct_format": "<8sII4d",
+    "fields": [
+      "AGEGEO01",
+      "u32 width",
+      "u32 height",
+      "f64 west sample center degrees",
+      "f64 north sample center degrees",
+      "f64 positive longitude step degrees",
+      "f64 positive latitude step degrees"
+    ]
+  },
+  "binary_payload_codec": "Rows north-to-south. For each row: native little-endian f32 words -> concatenate byte planes 0,1,2,3 -> byte differences modulo 256 against previous shuffled byte, resetting previous=0 at row start. Decoder prefix-sums modulo 256 across the full row, unshuffles four planes, then decodes little-endian f32.",
+  "independent_reference": "PROJ vgridshift using the original official GeoTIFF, multiplier=+1",
+  "independent_proj_max_difference_metres": 6.394884621840902e-14,
+  "independent_proj_fixtures": [
+    {
+      "label": "Greenwich equator",
+      "longitude_degrees": 0.0,
+      "latitude_degrees": 0.0,
+      "proj_geoid_undulation_metres": 17.22508430480957,
+      "native_bilinear_geoid_undulation_metres": 17.22508430480957,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "Tokyo",
+      "longitude_degrees": 139.69171,
+      "latitude_degrees": 35.6895,
+      "proj_geoid_undulation_metres": 36.71622094881347,
+      "native_bilinear_geoid_undulation_metres": 36.71622094881341,
+      "absolute_difference_metres": 6.394884621840902e-14
+    },
+    {
+      "label": "Fuji",
+      "longitude_degrees": 138.73,
+      "latitude_degrees": 35.36,
+      "proj_geoid_undulation_metres": 42.23878781127925,
+      "native_bilinear_geoid_undulation_metres": 42.23878781127928,
+      "absolute_difference_metres": 2.842170943040401e-14
+    },
+    {
+      "label": "Sydney",
+      "longitude_degrees": 151.2093,
+      "latitude_degrees": -33.8688,
+      "proj_geoid_undulation_metres": 22.357201683103035,
+      "native_bilinear_geoid_undulation_metres": 22.357201683103035,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "Denver",
+      "longitude_degrees": -104.9903,
+      "latitude_degrees": 39.7392,
+      "proj_geoid_undulation_metres": -17.274471936376894,
+      "native_bilinear_geoid_undulation_metres": -17.274471936376948,
+      "absolute_difference_metres": 5.3290705182007514e-14
+    },
+    {
+      "label": "Reykjavik",
+      "longitude_degrees": -21.9426,
+      "latitude_degrees": 64.1466,
+      "proj_geoid_undulation_metres": 66.48133778906251,
+      "native_bilinear_geoid_undulation_metres": 66.48133778906251,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "Pacific",
+      "longitude_degrees": -145.125,
+      "latitude_degrees": -25.375,
+      "proj_geoid_undulation_metres": -6.202545642852776,
+      "native_bilinear_geoid_undulation_metres": -6.202545642852783,
+      "absolute_difference_metres": 7.105427357601002e-15
+    },
+    {
+      "label": "West seam",
+      "longitude_degrees": -180.0,
+      "latitude_degrees": 45.123,
+      "proj_geoid_undulation_metres": -6.197069492340098,
+      "native_bilinear_geoid_undulation_metres": -6.197069492340098,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "East seam",
+      "longitude_degrees": 180.0,
+      "latitude_degrees": 45.123,
+      "proj_geoid_undulation_metres": -6.197069492340098,
+      "native_bilinear_geoid_undulation_metres": -6.197069492340098,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "Just west of seam",
+      "longitude_degrees": 179.999,
+      "latitude_degrees": 45.123,
+      "proj_geoid_undulation_metres": -6.197681791259716,
+      "native_bilinear_geoid_undulation_metres": -6.197681791259762,
+      "absolute_difference_metres": 4.618527782440651e-14
+    },
+    {
+      "label": "Just east of seam",
+      "longitude_degrees": -179.999,
+      "latitude_degrees": 45.123,
+      "proj_geoid_undulation_metres": -6.196493096923833,
+      "native_bilinear_geoid_undulation_metres": -6.196493096923836,
+      "absolute_difference_metres": 3.552713678800501e-15
+    },
+    {
+      "label": "North pole Greenwich",
+      "longitude_degrees": 0.0,
+      "latitude_degrees": 90.0,
+      "proj_geoid_undulation_metres": 14.8985013961792,
+      "native_bilinear_geoid_undulation_metres": 14.8985013961792,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "North pole seam",
+      "longitude_degrees": 180.0,
+      "latitude_degrees": 90.0,
+      "proj_geoid_undulation_metres": 14.8985013961792,
+      "native_bilinear_geoid_undulation_metres": 14.8985013961792,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "South pole Greenwich",
+      "longitude_degrees": 0.0,
+      "latitude_degrees": -90.0,
+      "proj_geoid_undulation_metres": -30.14996910095215,
+      "native_bilinear_geoid_undulation_metres": -30.14996910095215,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "South pole seam",
+      "longitude_degrees": -180.0,
+      "latitude_degrees": -90.0,
+      "proj_geoid_undulation_metres": -30.14996910095215,
+      "native_bilinear_geoid_undulation_metres": -30.14996910095215,
+      "absolute_difference_metres": 0.0
+    },
+    {
+      "label": "Near north pole",
+      "longitude_degrees": 123.456,
+      "latitude_degrees": 89.999,
+      "proj_geoid_undulation_metres": 14.897522217346214,
+      "native_bilinear_geoid_undulation_metres": 14.897522217346186,
+      "absolute_difference_metres": 2.842170943040401e-14
+    },
+    {
+      "label": "Near south pole",
+      "longitude_degrees": -123.456,
+      "latitude_degrees": -89.999,
+      "proj_geoid_undulation_metres": -30.150389978759765,
+      "native_bilinear_geoid_undulation_metres": -30.150389978759755,
+      "absolute_difference_metres": 1.0658141036401503e-14
+    }
+  ],
+  "compression_comparison": {
+    "plain_float32_gzip_bytes": 134130093,
+    "predicted_float32_gzip_bytes": 81581387
+  },
+  "license": "Public domain; source TIFF credits NGA",
+  "license_reference": "https://github.com/OSGeo/PROJ-data/blob/master/us_nga/us_nga_README.txt",
+  "sign_and_registration_reference": "https://proj.org/en/stable/specifications/geodetictiffgrids.html",
+  "software": {
+    "numpy": "2.4.6",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2",
+    "zlib": "1.3.1"
+  },
+  "limitations": [
+    "This finite-resolution gravity model is not terrain, bathymetry, local mean sea level, or a live tide model.",
+    "Lossless packaging preserves the source precision; it does not remove model uncertainty.",
+    "Bilinear interpolation is an approximation between native posts; no resampling or extra grid decimation occurred in this asset."
+  ]
+}

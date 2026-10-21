@@ -1,0 +1,39 @@
+{
+  "dataset": "Natural Earth I, 1:50 million, shaded relief and water",
+  "version_on_source_page": "3.2.0",
+  "source_page": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-natural-earth-1/",
+  "source_download": "https://naturalearth.s3.amazonaws.com/50m_raster/NE1_50M_SR_W.zip",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "retrieved_date": "2026-10-20",
+  "source_archive_sha256": "9e85417223414bbed425aea5dca0f0b4c5661fc94d4f14494140a21a08dfa450",
+  "source_tiff_sha256": "22a4d66193002df6d4f1fa59655196cde48eba232fd7f60ed2f3bba5004a65ee",
+  "source_world_file_sha256": "7f1cc97126a52814c874ec326a8275c7ded3edc4d7bced417f76d71a995069bd",
+  "source_world_file": [
+    0.03333333333333,
+    0.0,
+    0.0,
+    -0.03333333333333,
+    -179.98333333333332,
+    89.98333333333333
+  ],
+  "source_dimensions_pixels": [
+    10800,
+    5400
+  ],
+  "verified_bounds_lon_lat_degrees": [
+    -179.99999999999997,
+    -89.99999999998202,
+    179.99999999996405,
+    90.0
+  ],
+  "output_dimensions_pixels": [
+    4096,
+    2048
+  ],
+  "output_file": "earth.jpg",
+  "output_sha256": "1466787b99a85609d6b811629ddf6dd400aa5d915d1d2a5fc1e26b68b9ac83e2",
+  "resampling": "Pillow LANCZOS; full outer geographic bounds preserved",
+  "mapping": "u=(longitude+180)/360 wrapped; v=(90-latitude)/180; north at top",
+  "limitations": "Illustrative finite-resolution shaded-relief color map; not elevation, terrain geometry, satellite ground truth, or a precision survey."
+}

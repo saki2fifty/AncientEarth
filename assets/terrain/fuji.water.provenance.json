@@ -1,0 +1,79 @@
+{
+  "schema": "ancientearth.water-provenance.v3",
+  "id": "fuji",
+  "prepared_date": "2026-10-21",
+  "output_file": "fuji.aew",
+  "output_sha256": "30d30aa33936f5f5591aaccb1957685c7d8372f2c42e72a7600589408c744625",
+  "terrain_file": "fuji.aet",
+  "terrain_sha256": "9d28f2fdfb6159d93bd3da9ada70cf77cf04d8dbc8412e994932c4d90959ffb1",
+  "format": "AEWATR02: magic8, exact AETERR01 header bytes8..48, little-endian FNV-1a64 terrain checksum; u32 addedXYZcount,u32 facecount; addedXYZcount ECEFf64 triples; facecount records of3u32 globalvertexindices+u8class (13bytes). Original vertices precede added ones.",
+  "source": {
+    "filename": "N35_00_E138_00-WBM.tif",
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E138_00_DEM/AUXFILES/Copernicus_DSM_COG_10_N35_00_E138_00_WBM.tif",
+    "sha256": "d5d4e2a0728799e05299fb62031927fdb99ad4411e5539b207e640c0de60864c",
+    "license_review": "licenses/water-sources.json",
+    "dataset": "Copernicus GLO-30 AWS matching Water Body Mask",
+    "area_or_point": "Point",
+    "affine_gdal": [
+      137.9998611111111,
+      0.0002777777777777778,
+      0.0,
+      36.00013888888889,
+      0.0,
+      -0.0002777777777777778
+    ],
+    "source_codes": {
+      "0": "non-water",
+      "1": "ocean",
+      "2": "lake",
+      "3": "river"
+    }
+  },
+  "classification": "Ocean coast quads retain original native DEM/WBM posts. Binary native cells use outer-edge midpoints joined by a bounded, parent-contained G1 cubic reconstruction; only ambiguous checkerboards retain the fixed diagonal topology. Retained coarse quads use conservative unanimous4x4 source categories; unresolved inland mixtures are class4 without grass.",
+  "shoreline_refinement": {
+    "refined_coarse_cells": 0,
+    "added_vertex_records": [],
+    "added_vertex_record_format": "Implicit global index original_width*original_height+list_position; [0,native_row,native_column] source post, [1,midpoint_row,midpoint_column] modeled H=0 edge crossing, [2,a,b,c] Cartesian barycenter, [3,row,column,curve_index,t] modeled H=0 cubic sample",
+    "added_vertex_counts_native_crossing_center_curve": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checked_native_ocean_posts_including_original": 0,
+    "curves": [],
+    "curve_flatness_source_grid_units": 0.0005,
+    "contour": "Binary native quad outer-edge midpoints, fixed NW-SE halves only for ambiguous checkerboards; G1 cubic rounding contained in each convex source parent, chord-monotone controls and bounded de Casteljau subdivision. All crossing/curve samples use modeled H=0+EGM2008 N. Inland category mixtures remain unresolved."
+  },
+  "cartesian_footprint_enclosure": {
+    "minimum_south_F_metres": 15.409950843873958,
+    "maximum_north_affine_F_metres": -15.409886297835328,
+    "required_sign_margin_metres": 0.001,
+    "method": "Geodetic latitude cone concave south bound and affine north bound at all four quad vertices; longitude convex wedge"
+  },
+  "triangle_counts_land_ocean_lake_river_mixed": [
+    114028,
+    0,
+    0,
+    0,
+    20
+  ],
+  "source_row_bounds": [
+    1980,
+    2628
+  ],
+  "source_column_bounds": [
+    2232,
+    3024
+  ],
+  "checked_ocean_post_count": 0,
+  "ocean_orthometric_height": "Every retained/new native ocean post is checked against sourceH=0; modeled shoreline crossings and curve samples use H=0+N. Source-post heights unchanged; coast/transition interpolation refined.",
+  "all_posts_H_plus_N_max_difference_m": 4.547473508864641e-13,
+  "geoid_source_sha256": "4191d471eefebf24091b56dbc604353cb3b8cf8cc70e448bb9ae56a272bef17a",
+  "limitations": [
+    "The ocean coast is reconstructed from native roughly30m posts using a declared smooth interpolation; its fine finite triangles do not add surveyed or subpixel source accuracy. Inland water and unresolved category mixtures remain conservative.",
+    "Source-post heights are unchanged, but new native and modeled shoreline vertices change interpolation and ranges in coastal/stitched transition cells. Original .aet files remain unchanged.",
+    "Cartesian triangles approximate the geoid between posts; this is a static geoid-referenced surface, not actual tides, waves, mean dynamic topography, or historical shorelines.",
+    "Lake and river triangles retain their original source DSM levels, never forced to ocean zero. No bathymetry or worldwide ocean coverage is added."
+  ]
+}

@@ -1,0 +1,4 @@
+# Optional independent astronomy verification, never packaged with the app.
+numpy==2.4.6
+spiceypy==8.3.0
+pyerfa==2.0.1.5

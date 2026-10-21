@@ -1,0 +1,9 @@
+# Source files use consistent line endings on Windows and Unix.
+* text=auto eol=lf
+
+# Reviewed data, provenance, license sources and lockfile are byte-sensitive.
+assets/** -text
+licenses/** -text
+docs/images/** -text
+Cargo.lock -text
+THIRD_PARTY_LICENSES.txt -text

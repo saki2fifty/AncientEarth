@@ -1,0 +1,136 @@
+{
+  "schema": "ancientearth.terrain-provenance.v1",
+  "id": "houston",
+  "prepared_date": "2026-10-20",
+  "format": "AETERR01: little-endian 8-byte magic, u32 width, u32 height, f64 west/north/positive longitude step/positive latitude step, row-major f64 ellipsoidal metres; rows progress south",
+  "header_bytes": 48,
+  "output_file": "houston.aet",
+  "output_sha256": "f9b2105209538c51b1af96c94a05020b93392b5a35f99716efcfbd65aebc8979",
+  "dimensions_samples": [
+    249,
+    217
+  ],
+  "sample_bounds_degrees": {
+    "west": -95.46666666666667,
+    "south": 29.673333333333332,
+    "east": -95.25999999999999,
+    "north": 29.85333333333333
+  },
+  "sample_step_degrees": {
+    "longitude": 0.0008333333333333333,
+    "latitude": 0.0008333333333333333
+  },
+  "requested_center_lon_lat_degrees": [
+    -95.36327,
+    29.76328
+  ],
+  "requested_center_source": {
+    "dataset": "GeoNames cities15000 snapshot",
+    "geonames_id": 4699066,
+    "coordinate_fields": "Unchanged source latitude and longitude; representative place point",
+    "source_reference": "https://download.geonames.org/export/dump/readme.txt"
+  },
+  "requested_bounds_degrees": {
+    "west": -95.46666716344276,
+    "south": 29.673066750690346,
+    "east": -95.25987283655724,
+    "north": 29.853493249309658
+  },
+  "request_extent_method": "20 km local rectangle using WGS84 meridional and prime-vertical curvature at center; approximate extent, then crop inward to retained source samples",
+  "actual_center_line_geodesic_extent_metres": {
+    "east_west": 19987.650741709713,
+    "north_south": 19952.723529450406
+  },
+  "registration": {
+    "source_area_or_point": "Point",
+    "source_affine_gdal": [
+      -96.00013888888888,
+      0.0002777777777777778,
+      0.0,
+      30.000138888888888,
+      0.0,
+      -0.0002777777777777778
+    ],
+    "source_first_sample_lon_lat_deg": [
+      -96.0,
+      30.0
+    ],
+    "first_source_row_column": [
+      528,
+      1920
+    ],
+    "last_source_row_column": [
+      1176,
+      2664
+    ],
+    "row_and_column_stride": 3,
+    "coordinate_method": "GDAL affine at (column+0.5,row+0.5); PixelIsPoint handled once by GDAL"
+  },
+  "height_reference": "WGS84 ellipsoidal height (EPSG:4979), metres",
+  "height_conversion": "h = H_EGM2008 + N_EGM2008; positive geoid undulation is above WGS84 ellipsoid",
+  "orthometric_height_range_metres": [
+    0.0,
+    60.83548355102539
+  ],
+  "geoid_undulation_range_metres": [
+    -28.49427964782715,
+    -28.33129495239257
+  ],
+  "ellipsoidal_height_range_metres": [
+    -28.398390792846676,
+    32.43042824630737
+  ],
+  "dem": {
+    "dataset": "Copernicus DEM GLO-30 Public, AWS 2021 release, digital surface model",
+    "source_file": "N29W096.tif",
+    "source_sha256": "83300f13ef5ae7e2a6394be133e450f4891b842fbf2346c3bf5b96aa71044903",
+    "source_url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N29_00_W096_00_DEM/Copernicus_DSM_COG_10_N29_00_W096_00_DEM.tif",
+    "source_dimensions_samples": [
+      3600,
+      3600
+    ],
+    "horizontal_crs": "WGS84 geographic (EPSG:4326)",
+    "vertical_crs": "EGM2008 height (EPSG:3855)",
+    "sampling": "Every third native sample in both axes; no averaging or height interpolation; 3 arc seconds in these regions",
+    "sample_spacing_at_requested_center_metres": {
+      "east_west": 80.59537666060959,
+      "north_south": 92.3737247298994
+    },
+    "product_reference": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "aws_processing_reference": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
+    "license_reference": "https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model",
+    "citation": "Copernicus Digital Elevation Model was accessed on 2026-10-20 from https://registry.opendata.aws/copernicus-dem."
+  },
+  "geoid": {
+    "dataset": "NGA EGM2008, 2.5 arc-minute grid distributed by PROJ",
+    "source_file": "us_nga_egm08_25.tif",
+    "source_sha256": "4191d471eefebf24091b56dbc604353cb3b8cf8cc70e448bb9ae56a272bef17a",
+    "source_url": "https://cdn.proj.org/us_nga_egm08_25.tif",
+    "metadata": {
+      "TIFFTAG_IMAGEDESCRIPTION": "WGS 84 (EPSG:4979) to EGM2008 height (EPSG:3855). Converted from egm08_25.gtx (last modified at 2018/10/08)",
+      "TIFFTAG_DATETIME": "2019:12:27 00:00:00",
+      "TIFFTAG_COPYRIGHT": "Derived from work by NGA. Public Domain",
+      "area_of_use": "World",
+      "target_crs_epsg_code": "3855",
+      "TYPE": "VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL",
+      "AREA_OR_POINT": "Point"
+    },
+    "interpolation": "Bilinear in geographic sample-center longitude/latitude",
+    "sign_reference": "https://proj.org/en/stable/specifications/geodetictiffgrids.html",
+    "license": "Public domain",
+    "provenance_reference": "https://github.com/OSGeo/PROJ-data/blob/master/us_nga/us_nga_README.txt",
+    "independent_proj_check_samples": 5,
+    "independent_proj_max_difference_metres": 7.105427357601002e-15
+  },
+  "software": {
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.2",
+    "numpy": "2.4.6"
+  },
+  "limitations": [
+    "A finite-resolution DSM includes vegetation and buildings; it is not bare-earth ground or survey truth.",
+    "Decimation can omit peaks and small features; source and geoid errors remain.",
+    "The binary bounds locate outermost retained sample centers, not half-cell image edges.",
+    "Surface geometry between samples depends on the application's declared mesh interpolation."
+  ]
+}

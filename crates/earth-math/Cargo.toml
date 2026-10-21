@@ -1,0 +1,13 @@
+[package]
+name = "earth-math"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Double precision WGS84 geometry and camera mathematics for AncientEarth"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+geographiclib-rs = { version = "=0.2.7", default-features = false }
+grib = { version = "=0.18.2", default-features = false, features = ["jpeg2000-unpack-with-hayro", "png-unpack-with-png-crate", "ccsds-unpack-with-rust-aec"] }

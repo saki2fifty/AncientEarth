@@ -1,0 +1,5 @@
+# Optional asset preparation only; the native app has no Python dependency.
+numpy==2.4.6
+Pillow==11.3.0
+pyproj==3.7.2
+rasterio==1.4.4

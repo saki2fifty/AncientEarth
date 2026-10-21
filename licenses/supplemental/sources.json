@@ -1,0 +1,47 @@
+{
+  "FiraMono-OFL.txt": {
+    "source_url": "https://raw.githubusercontent.com/bevyengine/bevy/b3bdd75becaffe9a16677cf5bae5bd6d198f052b/assets/fonts/FiraMono-LICENSE",
+    "sha256": "587dd9548304fd421cd254f7550bd101c1250ffc95417f2f7f92d55b44ecbe53",
+    "retrieved": "2026-10-20"
+  },
+  "ProggyForever-MIT.txt": {
+    "source_url": "https://raw.githubusercontent.com/ocornut/proggyforever/master/LICENSE.txt",
+    "sha256": "47d329848d81b5ad777bf5eca73509a4d1b730d6e2ca917f03e72010b2f59576",
+    "retrieved": "2026-10-20"
+  },
+  "ProggyClean-MIT.txt": {
+    "source_url": "https://raw.githubusercontent.com/bluescan/proggyfonts/master/LICENSE",
+    "sha256": "fe61d069df303c697e04200f5f8232c2cb09dd3572f4357b323469f7d592d142",
+    "retrieved": "2026-10-20"
+  },
+  "Apache-2.0.txt": {
+    "source_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "retrieved": "2026-10-20"
+  },
+  "ERFA-BSD.txt": {
+    "source_url": "https://raw.githubusercontent.com/liberfa/erfa/v2.0.1/LICENSE",
+    "sha256": "b1858f9a263f22c438a455a32945da51a31a0ae25a21055da13bb7ed57cc3b51",
+    "retrieved": "2026-10-20"
+  },
+  "Astropy-IERS-BSD.txt": {
+    "source_url": "https://github.com/astropy/astropy-iers-data/blob/798223ef83d161f89f7feb0b75f7a212de6c0353/LICENSE.rst",
+    "sha256": "05d8ec3643773431cb5447b10711f119d79955470cdfbb8ca2e670a4432a153c",
+    "retrieved": "2026-10-20"
+  },
+  "NAIF-Rules.txt": {
+    "source_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+    "sha256": "541ff4c9119593f74db6e749847d74a61e0225597e7c02a8a0ee8825d59a0e70",
+    "retrieved": "2026-10-20"
+  },
+  "WMO-CCT-MIT.txt": {
+    "source_url": "https://raw.githubusercontent.com/wmo-im/CCT/de5c63793141d953c1a0c4d0f7c1ac1fa6ebfccd/LICENSE.md",
+    "sha256": "1840225ada0bffce85989af423138acd09ae2d69c36c16de06fe07c9729d3714",
+    "retrieved": "2026-10-21"
+  },
+  "WMO-GRIB2-MIT.txt": {
+    "source_url": "https://raw.githubusercontent.com/wmo-im/GRIB2/4da385f186c02dfd0f5a603ed2de626fddd3acf8/LICENSE.md",
+    "sha256": "1840225ada0bffce85989af423138acd09ae2d69c36c16de06fe07c9729d3714",
+    "retrieved": "2026-10-21"
+  }
+}
